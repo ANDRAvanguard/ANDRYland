@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chi Siamo – ANDRAland</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #0A0A0A;
+        font-family: "Segoe UI", sans-serif;
+        color: #F8F8F0;
+        text-align: center;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        font-weight: 300;
+        letter-spacing: 2px;
+        color: #D4AF37;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: #cfcfcf;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    a.btn-back {
+        display: inline-block;
+        margin-top: 40px;
+        padding: 12px 24px;
+        background: #1A1A1A;
+        border: 1px solid #333;
+        border-radius: 40px;
+        color: #F8F8F0;
+        text-decoration: none;
+        font-size: 1.1rem;
+        transition: 0.2s;
+    }
+
+    a.btn-back:hover {
+        transform: scale(1.05);
+        background: #222;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Chi Siamo – ANDRAland</h1>
+
+    <p>
+        ANDRAland è un progetto umano‑AI dove creatività, tecnologia e visione si incontrano.
+        Un luogo digitale costruito per evolvere, crescere e connettere persone attraverso
+        esperienze, idee e contenuti unici.
+    </p>
+
+    <p>
+        Questo spazio nasce per essere più di un semplice sito: è un ecosistema in continua
+        espansione, dove ogni pagina, ogni scelta e ogni dettaglio è parte di un percorso
+        più grande. E questo è solo l’inizio.
+    </p>
+
+    <a class="btn-back" href="index.html">⬅ Torna alla Home</a>
+
+</div>
+
+</body>
+</html>
 
