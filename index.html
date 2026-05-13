@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -107,6 +108,13 @@
                 drop-shadow(0 0 8px rgba(255, 100, 200, 0.3));
     }
 
+    /* TIKTOK — glow ciano/magenta */
+    .icon-tiktok {
+        border-radius: 6px;
+        filter: drop-shadow(0 0 4px rgba(0, 255, 255, 0.5))
+                drop-shadow(0 0 8px rgba(255, 0, 255, 0.3));
+    }
+
     .qr-section {
         margin-top: 50px;
     }
@@ -150,7 +158,7 @@
     </a>
 
     <a class="btn-icon" href="#" target="_blank">
-        <img src="assets/tiktok.png" alt="TikTok">
+        <img src="assets/tiktok.png" class="icon-tiktok" alt="TikTok">
         TikTok (in arrivo)
     </a>
 
@@ -166,10 +174,11 @@
     </div>
 
     <footer>
-        © 2026 ANDRAland — Human‑AI Experience  
+        © 2026 ANDRAland — Human‑AI Experience
     </footer>
 
 </div>
 
 </body>
 </html>
+```
