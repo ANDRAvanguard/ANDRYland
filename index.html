@@ -41,7 +41,7 @@
         margin-bottom: 40px;
     }
 
-    /* TASTO PAGA (in alto, invariato nello stile) */
+    /* TASTO PAGA */
     .btn-pay {
         display: block;
         width: 80%;
@@ -62,7 +62,7 @@
         background: linear-gradient(90deg, #e8c45a, #d4af37);
     }
 
-    /* PULSANTI SOCIAL CON ICONA */
+    /* PULSANTI SOCIAL */
     .btn-icon {
         display: flex;
         align-items: center;
@@ -93,11 +93,18 @@
         display: block;
     }
 
-    /* Logo Telegram: maschera tonda per togliere i bordi bianchi */
+    /* TELEGRAM — smussato + glow */
     .icon-telegram {
         border-radius: 50%;
         filter: drop-shadow(0 0 4px rgba(0, 150, 255, 0.6))
                 drop-shadow(0 0 8px rgba(0, 150, 255, 0.3));
+    }
+
+    /* INSTAGRAM — glow rosa/viola */
+    .icon-instagram {
+        border-radius: 6px;
+        filter: drop-shadow(0 0 4px rgba(255, 0, 150, 0.5))
+                drop-shadow(0 0 8px rgba(255, 100, 200, 0.3));
     }
 
     .qr-section {
@@ -128,17 +135,17 @@
     <h1>ANDRAland Social Club</h1>
     <p class="subtitle">Il portale umano‑AI dove arte, mente e tecnologia si incontrano.</p>
 
-    <!-- TASTO PAGA SOPRA I SOCIAL -->
+    <!-- TASTO PAGA -->
     <a class="btn-pay" href="payment.html">Paga con PayPal / Stripe</a>
 
-    <!-- PULSANTI SOCIAL CON ICONE -->
+    <!-- SOCIAL -->
     <a class="btn-icon" href="https://t.me/ANDRAland" target="_blank">
         <img src="assets/t_logo.png" class="icon-telegram" alt="Telegram">
         Telegram Ufficiale
     </a>
 
     <a class="btn-icon" href="https://www.instagram.com/andralandsocialclub" target="_blank">
-        <img src="assets/instagram.png" alt="Instagram">
+        <img src="assets/instagram.png" class="icon-instagram" alt="Instagram">
         Instagram Social Club
     </a>
 
@@ -147,7 +154,7 @@
         TikTok (in arrivo)
     </a>
 
-    <!-- QR SECTION -->
+    <!-- QR -->
     <div class="qr-section">
         <h2 style="color:#D4AF37; font-weight:300;">Scansiona e unisciti</h2>
 
